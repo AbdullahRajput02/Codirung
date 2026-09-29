@@ -602,7 +602,7 @@ export default function TechnologyUniverse() {
 
         <div className="mt-12 flex justify-center">
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=hello%40codirung.com&su=Project%20Inquiry"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=codirung%40gmail.com&su=Project%20Inquiry"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 rounded-full border border-white/[0.09] bg-white/[0.025] px-5 py-3 text-sm text-white/60 transition-all duration-300 hover:-translate-y-1 hover:border-white/20 hover:bg-white/[0.06] hover:text-white"

@@ -431,7 +431,7 @@ export default function WhyCodirung() {
 
             {/* CTA */}
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=hello%40codirung.com&su=Project%20Inquiry"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=codirung%40gmail.com&su=Project%20Inquiry"
               target="_blank"
               rel="noopener noreferrer"
               className="group mt-8 inline-flex items-center gap-3 text-sm font-medium text-white/70 transition-colors duration-300 hover:text-white"
@@ -479,7 +479,7 @@ export default function WhyCodirung() {
             </div>
 
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=hello%40codirung.com&su=Project%20Inquiry"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=codirung%40gmail.com&su=Project%20Inquiry"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex shrink-0 items-center gap-3 rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-black transition-all duration-300 hover:-translate-y-1 hover:bg-white/90 hover:shadow-[0_15px_40px_rgba(255,255,255,0.12)]"

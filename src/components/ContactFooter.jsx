@@ -355,7 +355,7 @@ export default function ContactFooter() {
 
                 {/* Email */}
                 <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=hello%40codirung.com&su=Project%20Inquiry"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=codirung%40gmail.com&su=Project%20Inquiry"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center gap-4"
@@ -373,14 +373,14 @@ export default function ContactFooter() {
                     </p>
 
                     <p className="mt-1 truncate text-sm text-white/65 transition-colors group-hover:text-white">
-                  hello@codirung.com
+                      codirung@gmail.com
                     </p>
                   </div>
                 </a>
 
                 {/* Phone */}
                 <a
-                  href="tel:+923000000000"
+                  href="tel:+923700139257"
                   className="group mt-5 flex items-center gap-4"
                 >
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-white/[0.07] bg-white/[0.03] transition-all duration-300 group-hover:border-white/20 group-hover:bg-white/[0.07]">
@@ -845,7 +845,7 @@ export default function ContactFooter() {
 
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=hello%40codirung.com&su=Project%20Inquiry"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=codirung%40gmail.com&su=Project%20Inquiry"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center justify-between rounded-2xl border border-white/[0.07] bg-white/[0.025] p-5 transition-all duration-300 hover:border-white/[0.14] hover:bg-white/[0.045]"

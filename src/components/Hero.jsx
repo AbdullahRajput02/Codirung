@@ -238,7 +238,7 @@ export default function Hero() {
             {/* CTA */}
             <div className="hero-buttons mt-9 flex flex-col gap-3 sm:flex-row">
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=hello%40codirung.com&su=Project%20Inquiry"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=codirung%40gmail.com&su=Project%20Inquiry"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
@@ -423,7 +423,7 @@ export default function Hero() {
               {/* Center dashboard */}
               <div
                 className="
-                  absolute
+                  absolute hidden md:block
                   left-1/2
                   top-1/2
                   w-[250px]
@@ -511,7 +511,7 @@ export default function Hero() {
                   </div>
 
                   {/* Chart */}
-                  <div className="mt-4 rounded-xl border border-white/5 bg-white/[0.025] p-4">
+                  <div className="mt-4 hidden rounded-xl border border-white/5 bg-white/[0.025] p-4 md:block">
                     <div className="flex items-center justify-between">
                       <p className="text-[9px] text-white/30">
                         Performance
@@ -600,8 +600,8 @@ export default function Hero() {
               {/* Floating card - top */}
               <div
                 className="
-                  hero-floating-card hidden sm:block
-                  absolute hidden sm:block
+                  hero-floating-card
+                  absolute
                   -right-2
                   top-[5%]
                   rounded-2xl
@@ -646,7 +646,7 @@ export default function Hero() {
               {/* Floating card - left */}
               <div
                 className="
-                  absolute hidden sm:block
+                  absolute
                   bottom-[16%]
                   left-[-10px]
                   rounded-2xl

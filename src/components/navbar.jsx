@@ -53,7 +53,7 @@ const serviceLinks = [
 ];
 
 const contactEmailUrl =
-  "https://mail.google.com/mail/?view=cm&fs=1&to=hello%40codirung.com&su=Project%20Inquiry";
+  "https://mail.google.com/mail/?view=cm&fs=1&to=codirung%40gmail.com&su=Project%20Inquiry";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -72,7 +72,10 @@ export default function Navbar() {
       animationFrame = requestAnimationFrame(() => {
         const nextScrolled = window.scrollY > 40;
 
-        const sections = ["home", "work", "services", "about", "process"];
+        // Keep this in the same order as the sections on the page.
+        // Otherwise Work can be active while the later Services check
+        // incorrectly moves the indicator back to Services.
+        const sections = ["home", "services", "work", "about", "process"];
 
         let currentSection = "home";
 
